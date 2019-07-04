@@ -1,0 +1,70 @@
+@charset "UTF-8";
+#top_of_top{
+	text-align: center;
+}
+#top_title{
+	color : black;
+	font-size: 20px;
+	font-weight: bold;
+	background: yellow;
+}
+#id{
+	font-size: 15px;
+	font-weight: bold;
+	background: lime;
+	width : 100px;
+	height : 30px;
+	text-align: center;
+}
+#id_update{
+	font-size: 15px;
+	font-weight: bold;
+	background: lime;
+	width : 150px;
+	height : 30px;
+	text-align: center;
+}
+#title{
+	font-size: 15px;
+	font-weight: bold;
+	background: red;
+	width : 100px;
+	height : 30px;
+	text-align: center;
+}
+#content{
+	font-size: 15px;
+	font-weight: bold;
+	background: skyblue;
+	width : 100px;
+	height : 30px;
+	text-align: center;
+}
+#price{
+	font-size: 15px;
+	font-weight: bold;
+	background: brown;
+	width : 100px;
+	height : 30px;
+	text-align: center;
+}
+#bt1{
+	width : 100px;
+	height : 30px;
+	text-align: center;
+}
+#bt2{
+	width : 100px;
+	height : 30px;
+	text-align: center;
+}
+#bt3{
+	width : 100px;
+	height : 30px;
+	text-align: center;
+}
+#bt4{
+	width : 100px;
+	height : 30px;
+	text-align: center;
+}

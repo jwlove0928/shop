@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>상품 등록</title>
+<script src="ShopJs.js"></script>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<body>
+	<form action="insert.jsp" name = "insert_shop" id="f">
+		<h1 id="top_of_top">웹 사이트 상품 관리 프로그램</h1><br>
+		<table align="center" border="1">
+			<tr>
+				<td id="top_title" align="center" colspan="2">상품 등록</td>
+			</tr>
+			<tr>
+				<td id="id">아이디</td>
+				<td><input type="text" name="id"></td>
+			</tr>
+			<tr>
+				<td id="title">상품제목</td>
+				<td><input type="text" name="title"></td>
+			</tr>
+			<tr>
+				<td id="content">상품설명</td>
+				<td><input type="text" name="content"></td>
+			</tr>
+			<tr>
+				<td id="price">가격</td>
+				<td><input type="text" name="price"></td>
+			</tr>
+			<tr>
+				<td id="bt0" colspan="2" align="center"><input type="button" onclick="check_title()" value="등록"></td>
+			</tr>
+		</table>
+		<table align="center">
+			<tr>
+				<td id="bt1"><a href="update.html"><input type="button" value="수정"></a></td>
+				<td id="bt2"><a href="delete.html"><input type="button" value="삭제"></a></td>
+				<td id="bt3"><a href="select.html"><input type="button" value="아이디검색"></a></td>
+				<td id="bt4"><a href="selectAll.jsp"><input type="button" name="select_All" id="select_All" value="전체목록검색"></a></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
